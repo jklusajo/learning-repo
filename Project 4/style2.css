@@ -1,0 +1,41 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font:
+      1.2em / 1.5 Helvetica Neue,
+      Helvetica,
+      Arial,
+      sans-serif;
+    padding: 1em;
+    margin: 0;
+}
+
+ul{
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li{
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    flex: 1;
+    flex-direction: column;
+}
+
+/*additional part within the task*/
+
+li:nth-of-type(1){
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    flex: 2;
+    flex-direction: column;
+}
